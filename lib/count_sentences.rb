@@ -30,7 +30,7 @@ class String
      if self == ""
        return 0
      else
-    self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
-  end
+       self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
+     end
   end
 end
